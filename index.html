@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 <body class="body">
 
@@ -30,10 +33,10 @@
         <h6><span class="text1"> Awesome App <br/> App Landing Template </span></h6>
         <br/>
         <span class="text2">An Awesome landing page template to showcase your app features, screenshots, pricing, user testimonials and download links.</span>
-        <br/><br/><br/>
+        <br/><br/>
         <span class="text3"><i class="fa-solid fa-circle-check"></i>  Amazing Design to Present Your App<br/><br/> <i class="fa-solid fa-circle-check"></i>   Fully Responsive and Powered by Bootstrap & PaperKit<br/><br/><i class="fa-solid fa-circle-check"></i>  Very Easy to Customize and Setup</span>
-        <br/><br/><br/><br/>
-        <a href="#" target="_self" class="download">Download Now</a> 
+        <br/><br/>
+        <a href="#" target="_self" ><input type="button" value="Download Now" class="download"></a> 
 
     </div>
     <div class="box2">
@@ -100,78 +103,147 @@
 </div>
 </div>
 
-<div class="page4">
+<div class="pg4">
+    <div class="card-list container  " style="display: flex; flex-wrap:wrap; flex-direction:row; align-items:center; justify-content:space-around;margin-bottom: 50px;">
+    
+    
+    
+        <div class="text-center mt-5 mb-3">
+            <p class="fs-1 fw-bolder mb-3">We've got the Perfect Package for you</p>
+            <p class="fs-6">A section to display your pricing structure. Make sure to highlight your most popular plan like shown below. Replace this text to describe your pricing plan.</p>
+        </div>
+    
+    
+    
+    
+        <div class="card border border-0 shadow text-center p-0" style="width: 15rem; height:500px; ">
+            <div class="card-body p-0">
+              <h5 class="card-title mb-0" style="background-color: rgb(247, 247, 247); height: 50px; display:flex; align-items:center; justify-content:center;">Basic</h5>
+              <p class="card-text  fs-1 text-light bg-dark mb-0" style="background:linear-gradient(to right,rgba(255, 0, 0, 1),rgb(255, 136, 0,1)); height: 100px; display:flex; align-items:center; justify-content:center;">$12.0/m</p>
+            </div>
+            <div style="background-color: rgb(247, 247, 247); height:500px;" >
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">One User</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">Multiple Access</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">SMS Support</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">24/7 Online Support</li>
+            </ul>
+        
+            <div class="card-body pt-5" style="background-color: rgb(247, 247, 247); display:flex; flex-direction:column; align-items:center; justify-content:center;" >
+                <p class="card-text ">Start free trial</p>
+                <button type="button" class="fs-4 btn btn-outline-primary rounded-pill">Buy Now</button>
+            </div>
+        </div>
+          </div>
+    
+          <!-- 2nd card  -->
+          <div class="card border border-0 shadow text-center p-0" style="width: 15rem; height:500px; ">
+            <div class="card-body p-0">
+              <h5 class="card-title mb-0" style="background-color: rgb(247, 247, 247); height: 50px; display:flex; align-items:center; justify-content:center;">Basic</h5>
+              <p class="card-text  fs-1 text-light bg-dark mb-0" style="background:linear-gradient(to right,rgba(255, 0, 0, 1),rgb(255, 136, 0,1)); height: 100px; display:flex; align-items:center; justify-content:center;">$12.0/m</p>
+            </div>
+            <div style="background-color: rgb(247, 247, 247); height:500px;" >
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">One User</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">Multiple Access</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">SMS Support</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">24/7 Online Support</li>
+            </ul>
+        
+            <div class="card-body pt-5" style="background-color: rgb(247, 247, 247); display:flex; flex-direction:column; align-items:center; justify-content:center;" >
+                <p class="card-text ">Start free trial</p>
+                <button type="button" class="fs-4 btn btn-outline-primary rounded-pill">Buy Now</button>
+            </div>
+        </div>
+          </div>
+    
+          <!-- 3rd card-->
+          <div class="card border border-0 shadow text-center p-0" style="width: 15rem; height:500px; ">
+            <div class="card-body p-0">
+              <h5 class="card-title mb-0" style="background-color: rgb(247, 247, 247); height: 50px; display:flex; align-items:center; justify-content:center;">Basic</h5>
+              <p class="card-text  fs-1 text-light bg-dark mb-0" style="background:linear-gradient(to right,rgba(255, 0, 0, 1),rgb(255, 136, 0,1)); height: 100px; display:flex; align-items:center; justify-content:center;">$12.0/m</p>
+            </div>
+            <div style="background-color: rgb(247, 247, 247); height:500px;" >
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">One User</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">Multiple Access</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">SMS Support</li>
+              <li class="list-group-item " style="background-color: rgb(247, 247, 247);">24/7 Online Support</li>
+            </ul>
+        
+            <div class="card-body pt-5" style="background-color: rgb(247, 247, 247); display:flex; flex-direction:column; align-items:center; justify-content:center;" >
+                <p class="card-text ">Start free trial</p>
+                <button type="button" class="fs-4 btn btn-outline-primary rounded-pill">Buy Now</button>
+            </div>
+        </div>
+      </div>
+    
+      <!-- 4rth card-->
+    
+      <div class="card border border-0 shadow text-center p-0" style="width: 15rem; height:500px; ">
+        <div class="card-body p-0">
+          <h5 class="card-title mb-0" style="background-color: rgb(247, 247, 247); height: 50px; display:flex; align-items:center; justify-content:center;">Basic</h5>
+          <p class="card-text  fs-1 text-light bg-dark mb-0" style="background:linear-gradient(to right,rgba(255, 0, 0, 1),rgb(255, 136, 0,1)); height: 100px; display:flex; align-items:center; justify-content:center;">$12.0/m</p>
+        </div>
+        <div style="background-color: rgb(247, 247, 247); height:500px;" >
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item " style="background-color: rgb(247, 247, 247);">One User</li>
+          <li class="list-group-item " style="background-color: rgb(247, 247, 247);">Multiple Access</li>
+          <li class="list-group-item " style="background-color: rgb(247, 247, 247);">SMS Support</li>
+          <li class="list-group-item " style="background-color: rgb(247, 247, 247);">24/7 Online Support</li>
+        </ul>
+    
+        <div class="card-body pt-5" style="background-color: rgb(247, 247, 247); display:flex; flex-direction:column; align-items:center; justify-content:center;" >
+            <p class="card-text ">Start free trial</p>
+            <button type="button" class="fs-4 btn btn-outline-primary rounded-pill">Buy Now</button>
+        </div>
+    </div>
+      </div>
+    
+    
+      
+    </div>
+    </div>
 
-<div class="c1">
-    <p class="z4">We've got the Perfect Package for you</p>
-    <p class="z5">A section to display your pricing structure. Make sure to highlight your most popular plan like shown below. Replace this text to describe your pricing plan.</p>
-</div>
 
-<div class="c2">
-    <p class="x1"> Basic </p>
-    <hr/>
-    <p class="x2">$12.0/m</p>
-    <hr/>
-    <p class="x3">One User</p>
-    <hr/>
-    <p class="x3">Multiple Access</p>
-    <hr/>
-    <p class="x3">SMS Support</p>
-    <hr/>
-    <p class="x3">24/7 Online Support</p>
-    <hr/>
-    <a href=""><input type="button" value="BUY NOW" class="buynow"></a>
-</div>
+<div class="canta p-3 mb-2 bg-warning-subtle text-emphasis-warning ">
 
-<div class="c2">
-    <p class="x1"> Standard </p>
-    <hr/>
-    <p class="x2">$24.0/m</p>
-    <hr/>
-    <p class="x3">Five User</p>
-    <hr/>
-    <p class="x3">Multiple Access</p>
-    <hr/>
-    <p class="x3">SMS Support</p>
-    <hr/>
-    <p class="x3">24/7 Online Support</p>
-    <hr/>
-    <a href=""><input type="button" value="BUY NOW" class="buynow"></a>
-</div>
 
-<div class="c2">
-    <p class="x1"> Premium </p>
-    <hr/>
-    <p class="x2">$250.0/m</p>
-    <hr/>
-    <p class="x3">Twenty User</p>
-    <hr/>
-    <p class="x3">Multiple Access</p>
-    <hr/>
-    <p class="x3">SMS Support</p>
-    <hr/>
-    <p class="x3">24/7 Online Support</p>
-    <hr/>
-    <a href=""><input type="button" value="BUY NOW" class="buynow"></a>
-</div>
+    <h1 class="text-center mb-5 fw-bold mt-3">Take a look at our screenshots</h1>
+    <h6 class="text-center mb-3">Add your screen shot below. Make sure to make them lively by putting them inside real device mockups</h6>
+    <div id="carouselExampleIndicators" class="carousel slide " style="margin-left:250px; width: 800px; height: 450px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./nature (1).jpg" class="d-block w-100" alt="..." height="450px" >
+          </div>
+          <div class="carousel-item">
+            <img src="./nature (2).jpg" class="d-block w-100" alt="..." height="450px" >
+          </div>
+          <div class="carousel-item">
+            <img src="./nature (3).jpg" class="d-block w-100 " alt="..." height="450px" >
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
 
-<div class="c2">
-    <p class="x1"> Enterprise </p>
-    <hr/>
-    <p class="x2">$999.0/m</p>
-    <hr/>
-    <p class="x3">Unlimited User</p>
-    <hr/>
-    <p class="x3">Multiple Access</p>
-    <hr/>
-    <p class="x3">SMS Support</p>
-    <hr/>
-    <p class="x3">24/7 Online Support</p>
-    <hr/>
-    <a href=""><input type="button" value="BUY NOW" class="buynow"></a>
-</div>    
 
-</div>
+
+
+
+
 
 <div class="page5">
 
@@ -180,25 +252,29 @@
     <p class="z3">Real user testimonials are great way to attract new customers and increase their trust into using your app. Replace the testimonials below with the ones for your own app.</p>
 </div>
 <div class="c3">
+    <br/>
     <p class="z3">Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.</p>
-    <br/><br/>
+    <br/>
     <i class="fa-regular fa-user fa-3x"></i>
     <p class="z2">Robin Barnes</p>
     <span class="z3">CEO, Awesome Inc.</span>
 </div>
 <div class="c3">
+    <br/>
     <p class="z3">Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.</p>
-    <br/><br/>
+    <br/>
     <i class="fa-regular fa-user fa-3x"></i>
     <p class="z2">Jeanne Lawson</p>
     <span class="z3">Design, Awesome Inc</span>
 </div>
 <div class="c3">
+    <br/>
     <p class="z3">Awesome App is awesome and I can't imagine working on my projects without it. It has saved me countless hours of time and has increased my productivity.</p>
-    <br/><br/>
+    <br/>
     <i class="fa-regular fa-user  fa-3x"></i>
     <p class="z2">Patrick Harry</p>
     <span class="z3">Developer, Awesome Inc</span>
+</div>
 </div>
 <div class="footer">
     <div class="c1">
@@ -230,7 +306,7 @@
             <p class="z3">Download from Microsoft</p>
         </div>
      </a>
-
+</div>
     <div class="foot">
 
         <div class="ending1">
@@ -247,28 +323,34 @@
         </div>
         <div class="ending2">
             <p>HELP?</p>
-            <a href="">How To Order</a><br/><br/>
-            <a href="">How To Use Gift Card</a><br/><br/>
-            <a href="">Returns & Exchanges</a><br/><br/>
-            <a href="">Shipping Details</a>
+            <a href="#" class="gram">How To Order</a><br/><br/>
+            <a href="#" class="gram">How To Use Gift Card</a><br/><br/>
+            <a href="#" class="gram">Returns & Exchanges</a><br/><br/>
+            <a href="#" class="gram">Shipping Details</a>
         </div>
         <div class="ending3">
             <p>What's New?</p>
-            <a href="">Privacy Policy</a><br/><br/>
-            <a href="">Customer Reviews</a><br/><br/>
-            <a href="">Customer Reviews</a><br/><br/>
-            <a href="">Become a Brand Ambassador</a>
+            <a href="#" class="gram">Privacy Policy</a><br/><br/>
+            <a href="#" class="gram">Customer Reviews</a><br/><br/>
+            <a href="#" class="gram">Customer Reviews</a><br/><br/>
+            <a href="#" class="gram">Become a Brand Ambassador</a>
         </div>
     
-       
+        
 </div>
 
 
-</div>
 
 
 
+<!-- bootstrap script-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     
 </body>
 </html>
+
+
+
+
+   
