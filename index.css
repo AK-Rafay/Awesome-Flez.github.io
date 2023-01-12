@@ -10,7 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: left;
 
 }
 
@@ -33,16 +33,15 @@
     justify-content: space-around;
 }
 
-.page4{
-    background: linear-gradient( to right, rgb(255, 0, 0), rgb(255, 153, 0));
-    width: 100%;
-    height: 100vh;
 
-}
 .page5{
     background-color: white;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 
 }
 
@@ -113,7 +112,7 @@ ol li a:hover{
 }
 .box1{
     height: 450px;
-    width: 500px;
+    width: 600px;
     background: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0));
    /* position: relative;
     left: 50px;
@@ -122,20 +121,13 @@ ol li a:hover{
     display: inline-block;*/
     box-sizing: border-box;
     text-align: justify;
+    margin-left: 50px;
+   
+    
+    
    
 }
-.box2{
-    height: 400px;
-    width: 450px;
-    background: linear-gradient(rgba(0,0,0,0.01),rgba(0,0,0,0));
-    position: relative;
-    left: 50px;
-    top: 50px;
-    margin: 10px 50px 0px 50px;
-    display: inline-block;
-    text-align: center;
-    
-}
+
 .text1{
     color: white;
     font-size: 40px;
@@ -199,10 +191,7 @@ a{
 }
 .c1{
     height: 130px;
-    width: 600px;
-    position: relative;
-    top: 0;
-    left: 350px;
+    width: 100%;
     text-align: center;
     padding-top: 10px;
     box-sizing: border-box;
@@ -299,12 +288,7 @@ a{
     width: 350px;
     border: 1px transparent;
     border-radius: 20px;
-    display: inline-block;
     background-color: rgb(247, 247, 247);
-    position: relative;
-    top: 80px;
-    left: 100px;
-    margin: 0px 10px 0px 10px;
     text-align: center;
 
 }
@@ -312,16 +296,15 @@ a{
     width: 100%;
     height :60vh;
     background: linear-gradient( to right, rgb(255, 0, 0), rgb(255, 0, 119));
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 .c4{
     height: 150px;
     width: 300px;
-    display: inline-block;
     background-color:white ;
-    position: relative;
-    top: 30px;
-    left: 150px;
-    margin: 0px 20px 0px 20px;
     border-radius: 20px;
     text-align: center;
     padding-top:20px;
@@ -331,11 +314,17 @@ a{
     transform: scale(1.1);
     transition-duration: .5s;
 }
+.gram{
+    text-decoration: none;
+}
 
 .foot{
     height: 40vh;
     width: 100%;
     background-color: rgb(48, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .ending1,
 .ending2,
@@ -344,16 +333,15 @@ a{
     width: 300px;
     color: white;
     text-align: center;
-    display: inline-block;
     box-sizing: border-box;
-    margin: 30px 30px 30px 30px;
+    
     
 }
 a{
     text-decoration: none;
     color: white;
 }
-
+ 
 .fb{
     color: blue;
     
@@ -374,4 +362,69 @@ a{
     transform: scale(1.1);
     transition-duration: .4s;
 
+}
+
+@media only screen and (max-width:1236px){
+    ul li{
+        padding: 0px 5px 0px 5px;
+    }
+    #search{
+        width: 150px;
+    }
+  
+}
+@media only screen and (max-width:1200px){
+   .card{
+    margin: 20px 20px 20px 20px !important;
+    
+   }
+}
+@media only screen and (max-width:1016px){
+    .logo2{
+        font-size: 20px;
+        position: relative;
+        bottom: 10px;
+    }
+}
+@media only screen and (max-width:800px){
+    
+    .carousel{
+        width: 300px !important;
+        height: 100px !important;
+    }
+    .ffa{
+        height: 100px !important;
+        width: 300px !important;
+
+    }
+   
+
+}
+@media only screen and (max-width:600px){
+    .box1{
+        margin-right: 50px;
+        margin-bottom: 150px;
+        
+    }
+    .card-list{
+        margin-top: 100px !important;
+    }
+    .page2{
+        height: 150vh;
+        
+    }
+    .page3{
+        height: 150vh;
+    }
+    .page5{
+        height: 150vh;
+    }
+    .footer{
+        height: 130vh;
+    }
+    .canta{
+        height: 100vh;
+    }
+    
+   
 }
