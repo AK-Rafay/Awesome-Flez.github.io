@@ -363,6 +363,9 @@ a{
     transition-duration: .4s;
 
 }
+/*  if margin or padding is 20px and you want to lower the margin or padding  then type margin 10px 
+     or padding 10px in media quiery this will lower the margin from 20px to 10 px 
+     actually here in @media we set new styling which overwrites the original one above   */
 
 @media only screen and (max-width:1236px){
     ul li{
@@ -425,6 +428,30 @@ a{
     .canta{
         height: 100vh;
     }
-    
+    .b2{
+        padding: 0px 10px 0px 10px;
+        box-sizing: border-box;
+    }
    
+    .logo1{
+        font-size: 20px;
+        position: relative;
+        bottom: 10px;
+    }
+    .logo2{
+        font-size: 15px;
+    }
+    ul li {
+        font-size: 15px;
+        position: relative;
+        bottom: 5px;
+
+    }
+    #search{
+        width: 200px;
+    }
+    .login{
+        margin: 0px;
+
+    }
 }
